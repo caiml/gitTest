@@ -1,7 +1,7 @@
 module.exports = function main() {
-    function deplex(x,y){
+    function deplex(var x,var y){
 		var z=x%y;
 		return (z);
 	}
-	console.log(deplex(x,y));
+	console.log(deplex(var x,var y));
 };
